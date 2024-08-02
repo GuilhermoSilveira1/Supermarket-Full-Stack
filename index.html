@@ -1,29 +1,36 @@
-<!--System.out.println("Olá, qual ação gostaria de realizar?");
-            System.out.println("1 - Realizar venda");
-            System.out.println("2 - Ir para o menu cliente");
-            System.out.println("3 - Ir para o menu atendente");
-            System.out.println("4 - Consultar o histórico de compras e de vendas");
-            System.out.println("5 - Gerenciamento de Estoque");
-            System.out.println("6 - Pedidos de Compra");
-            System.out.println("7 - Sair do programa");-->
-
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/src/styles/styles.css" />
+    <title>Sistema do Supermercado</title>
   </head>
   <body>
     <header>
-      <h1>SISTEMA DE GERENCIAMENTO</h1>
+      <h1 class="titulo">SISTEMA DE GERENCIAMENTO</h1>
       <h2>Bem Vindo!</h2>
       <h2>Qual ação gostaria de realizar?</h2>
     </header>
+
+    <main class="container">
+      <div class="buttons">
+        <a href="/src/pages/venda.html">Realizar venda</a>
+        <a href="/src/pages/clientes.html">Ir para o menu cliente</a>
+        <a href="/src/pages/atendentes.html">Ir para o menu atendente</a>
+        <a href="/src/pages/historico.html"
+          >Consultar o histórico de compras e de vendas</a
+        >
+        <a href="/src/pages/estoque.html">Gerenciamento de Estoque</a>
+        <a href="/src/pages/pedidosCompra.html">Pedidos de Compra</a>
+        <a>Sair do programa</a>
+      </div>
+    </main>
+
     <footer>
       <p class="copyright">
         <span class="bold">Guilhermo silveira</span>
-        &copy; 2023
+        &copy; 2024
       </p>
       <a
         class="linkedin"

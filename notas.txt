@@ -1,0 +1,7 @@
+Terminar o index.html
+
+Lembrar de colocar um botão para voltar ao menu inicial em cada página
+
+Seguir o que é feito no Java para cada página
+
+Ver como mandar as informações de formulário do HTML pro JS e daí pro Java
