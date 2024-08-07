@@ -8,6 +8,7 @@ const button6 = document.getElementById("button6");
 const button7 = document.getElementById("button7");
 const subtitle1 = document.getElementById("subtitle1");
 const subtitle2 = document.getElementById("subtitle2");
+const divButtons = document.getElementById("buttons");
 
 // Eventos de clique em cada botão
 button1.addEventListener("click", paginaVenda);
@@ -22,18 +23,8 @@ button6.addEventListener("click", paginaCompra);
 // Transforma o DOM na Página de Vendas
 function paginaVenda() {
   subtitle1.innerHTML = "Página de Vendas";
-  subtitle2.innerHTML = "Aqui você pode realizar e gerenciar vendas.";
-  updateButtonTexts("Venda");
-}
-
-// Atualiza o texto dos botões
-function updateButtonTexts(currentPage) {
-  venda.innerHTML = currentPage + " (Ativo)";
-  cliente.innerHTML = "Ir para o menu cliente";
-  atendente.innerHTML = "Ir para o menu atendente";
-  historico.innerHTML = "Consultar o histórico de compras e de vendas";
-  estoque.innerHTML = "Gerenciamento de Estoque";
-  compra.innerHTML = "Pedidos de Compra";
+  subtitle2.innerHTML = "Realizando venda";
+  divButtons.remove();
 }
 
 // Exemplos de funções para outras páginas
