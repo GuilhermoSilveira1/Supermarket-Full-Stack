@@ -1,5 +1,6 @@
 # Supermarket-Full-Stack
-A project that aims to create the frontend, integrate with the Java backend created in another repo, and with the PostgreSQL DBMS.
+
+A project that aims to create the frontend, integrate with the Java backend created in another repo, and with the PostgreSQL (still have to learn more about how to use it) DBMS.
 
 Utilizing the Java created on the Supermarket Management System, with a CLI, the aim is to develop a frontend to the aplication, with the possibility to try some type of login validation, adm functions, etc.
 
