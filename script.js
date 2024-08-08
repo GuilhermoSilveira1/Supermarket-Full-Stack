@@ -24,7 +24,20 @@ button6.addEventListener("click", paginaCompra);
 function paginaVenda() {
   subtitle1.innerHTML = "Página de Vendas";
   subtitle2.innerHTML = "Realizando venda";
-  divButtons.remove();
+  button1.remove();
+  button2.remove();
+  button3.remove();
+  button4.remove();
+  button5.remove();
+  button6.remove();
+  button7.remove();
+  let form1 = document.createElement("form");
+  form1.innerText = "Escreva o nome do cliente";
+
+  let form2 = document.createElement("form");
+  form2.innerText = "Escreva o nome do atendente";
+
+  divButtons.appendChild(form1, form2);
 }
 
 // Exemplos de funções para outras páginas
