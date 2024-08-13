@@ -105,3 +105,38 @@ async function handleAttendantSubmit() {
     alert("Erro ao enviar dados do atendente.");
   }
 }
+document.addEventListener("DOMContentLoaded", (event) => {
+  mainPage();
+});
+
+//Função que carrega a página principal
+function mainPage() {
+  const subtitle1 = document.getElementById("subtitle1");
+  const subtitle2 = document.getElementById("subtitle2");
+  const divButtons = document.getElementById("buttons");
+
+  // Atualiza os subtítulos
+  subtitle1.innerHTML = "Bem Vindo!";
+  subtitle2.innerHTML = "Qual ação gostaria de realizar?";
+
+  // Limpa os botões existentes
+  divButtons.innerHTML = "";
+
+  // Cria e adiciona novos botões
+  const buttons = [
+    { text: "Realizar Venda", id: "button1" },
+    { text: "Ir para o menu cliente", id: "button2" },
+    { text: "Ir para o menu atendente", id: "button3" },
+    { text: "Consultar o histórico de compras e vendas", id: "button4" },
+    { text: "Gerenciamento de estoque", id: "button5" },
+    { text: "Pedidos de compra", id: "button6" },
+    { text: "Sair do Programa", id: "button7" },
+  ];
+
+  buttons.forEach((button) => {
+    let btn = document.createElement("button");
+    btn.textContent = button.text;
+    btn.id = button.id;
+    divButtons.appendChild(btn);
+  });
+}
