@@ -13,3 +13,7 @@ Something that I would like to try is to use some cloud service to host the DB, 
 15/08/2024
 Mid way through the frontend project, I decided to switch the aproach on loading the content of the pages, from having some HTML files to the JS file adding and removing content dinamically.
 Some commits, changing those files are updates on the code to make this change.
+
+16/08/2024
+When trying to make the content load just by using vanilla JS, I started bumping in a lot of errors, and things not working. So, I decided to try to create the frontend utilizing React.
+As I used React only in one tutorial, it will take some time to get it working nicely, but it should be a better alternative than plain HTML and JS.
