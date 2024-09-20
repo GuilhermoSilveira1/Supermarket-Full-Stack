@@ -14,3 +14,8 @@ This project builds upon the Java Supermarket system with the goal of learning k
 - **Request Protocols:** HTTP or HTTPS
 - **Database:** MySQL
 - **API:** To be determined and developed
+
+### Project Preview 
+
+![Project image](https://github.com/GuilhermoSilveira1/Supermarket-Full-Stack/blob/main/Tela%20do%20projeto%20(superior).png)
+![Project image](https://github.com/GuilhermoSilveira1/Supermarket-Full-Stack/blob/main/Tela%20do%20projeto%20(inferior).png)
